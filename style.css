@@ -1,0 +1,80 @@
+body {
+  background:#eeeeee;
+  color:#e65500;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight:lighter;
+  display: block;
+  margin: 8px;
+  text-align: center;
+};
+
+h1 {
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-family:'Raleway', sans-serif;
+}
+
+.btn-red {
+  text-decoration: none;
+  background-color: #ed3f34;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.1);
+}
+
+.btn-red:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.container {
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 20px 0px;
+  border-radius: 10px;
+  text-align: center;
+}
+.card-white-title {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 20px -70px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card-white li{
+  list-style: none;
+  display:inline;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.card-white ul{
+  padding-left: 0px;
+}
+
+.card-white li:hover {
+  opacity: 0.7;
+  color: white;
+}
+
+#follow_me {
+
+}
