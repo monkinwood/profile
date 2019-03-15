@@ -1,22 +1,30 @@
 body {
   background:#eeeeee;
+  display: block;
   color:#e65500;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   font-weight:lighter;
-  display: block;
-  margin: 8px;
   text-align: center;
-};
+  width: 550px;
+  margin: 0 auto;
+}
+
 
 h1 {
   text-align: center;
   font-family:'Raleway', sans-serif;
+  font-size: 31px;
+  font-weight: bold;
 }
 
 h2 {
   text-align: center;
   font-family:'Raleway', sans-serif;
+}
+
+p {
+  color: black;
 }
 
 .btn-red {
@@ -37,11 +45,6 @@ h2 {
   border-radius: 50%;
 }
 
-.container {
-  width: 550px;
-  margin: 0 auto;
-  text-align: center;
-}
 .card-white {
   background-color: white;
   padding: 40px;
@@ -77,4 +80,24 @@ h2 {
 
 #follow_me {
 
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
 }
